@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #003366, #3366cc);
-    color: #fff;
+    background: #f4f4f4; /* Light neutral background for professionalism */
+    color: #333;  /* Dark text for high readability */
     padding: 20px;
     margin: 20px;
 }
@@ -16,14 +16,14 @@ body {
 header {
     text-align: center;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.8); /* Darken header for better contrast */
-    border-bottom: 5px solid #fff;
+    background-color: #2c3e50; /* Darker shade of blue-gray for a more professional look */
+    border-bottom: 5px solid #ecf0f1; /* Light border for subtle contrast */
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    color: #ffffff;
+    color: #ecf0f1; /* Light grayish text for header */
     margin-bottom: 10px;
     animation: fadeIn 2s ease-in-out;
 }
@@ -42,26 +42,26 @@ h1 {
 
 .navbar a {
     text-decoration: none;
-    color: #fff; /* White text for navbar links */
+    color: #ecf0f1; /* Light color for links */
     font-size: 18px;
     padding: 10px 15px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar a:hover {
-    background-color: #3366cc; /* Slightly lighter blue for hover */
-    color: #fff;  /* Keep text white when hovered */
+    background-color: #3498db; /* Blue accent color on hover */
+    color: #fff;  /* White text on hover */
 }
 
 main {
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #f4f4f4; /* Light neutral background for the content */
 }
 
 section {
     margin: 30px auto;
-    padding: 40px;  /* Increased padding for spacing */
-    background-color: rgba(0, 0, 0, 0.85);  /* Slightly darker for better contrast */
+    padding: 40px;
+    background-color: #ffffff; /* White background for sections */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 900px;
@@ -73,7 +73,7 @@ section {
 #introduction h2, #achievements h2, #projects h2, #contact h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
-    color: #3366cc;
+    color: #3498db; /* Blue color for headings */
     margin-bottom: 20px;
     animation: fadeIn 2s ease-in-out;
 }
@@ -87,7 +87,7 @@ ul {
 ul li {
     font-size: 18px;
     margin: 10px 0;
-    color: #ddd; /* Light grey text for better contrast */
+    color: #555; /* Slightly lighter grey text for list items */
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -115,8 +115,8 @@ img:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    background-color: #2c3e50; /* Dark background for the footer */
+    color: #ecf0f1; /* Light gray text for footer */
     margin-top: 40px;
     animation: fadeIn 2s ease-in-out;
 }
@@ -127,42 +127,42 @@ footer p {
 
 /* Update Google Colab link to yellow */
 a {
-    color: #ffcc00;  /* Yellow color for Google Colab link */
+    color: #3498db;  /* Blue color for Google Colab link */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ffffff; /* White color on hover */
+    color: #2c3e50; /* Dark color for hover */
 }
 
 /* New section for Footer with contact details */
 footer .contact-details {
     margin-top: 10px;
     font-size: 18px;
-    color: #fff;
+    color: #ecf0f1;
     font-weight: bold;
 }
 
 footer .contact-details a {
-    color: #ffcc00;
+    color: #3498db; /* Blue link color */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer .contact-details a:hover {
-    color: #ffffff; /* White color on hover */
+    color: #ecf0f1; /* White color on hover */
 }
 
 /* Specific Section Styling for Achievements and Contact */
 #achievements, #contact {
     padding: 40px; /* Increased padding to create more space */
-    background-color: rgba(0, 0, 0, 0.85); /* Slightly darker to contrast with the blue header */
+    background-color: #ffffff; /* White background for these sections */
 }
 
 #achievements p, #contact p, #achievements li, #contact li {
-    color: #ddd; /* Light grey text for better contrast */
+    color: #555; /* Darker text for readability */
 }
 
 #achievements ul, #contact ul {
