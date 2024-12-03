@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #f4f4f4; /* Light neutral background for professionalism */
+    background: linear-gradient(to bottom, #000000, #434343); /* Black gradient background */
     color: #333;  /* Dark text for high readability */
     padding: 20px;
     margin: 20px;
@@ -55,13 +55,13 @@ h1 {
 
 main {
     padding: 40px;
-    background-color: #f4f4f4; /* Light neutral background for the content */
+    background-color: transparent; /* Transparent to show the gradient background */
 }
 
 section {
     margin: 30px auto;
     padding: 40px;
-    background-color: #ffffff; /* White background for sections */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for sections */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 900px;
@@ -158,7 +158,7 @@ footer .contact-details a:hover {
 /* Specific Section Styling for Achievements and Contact */
 #achievements, #contact {
     padding: 40px; /* Increased padding to create more space */
-    background-color: #ffffff; /* White background for these sections */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for these sections */
 }
 
 #achievements p, #contact p, #achievements li, #contact li {
