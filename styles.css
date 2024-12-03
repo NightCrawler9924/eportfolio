@@ -9,14 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #003366, #3366cc);
     color: #fff;
-    padding: 20;
-    margin: 20;
+    padding: 20px;
+    margin: 20px;
 }
 
 header {
     text-align: center;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8); /* Darken header for better contrast */
     border-bottom: 5px solid #fff;
 }
 
@@ -42,15 +42,15 @@ h1 {
 
 .navbar a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff; /* White text for navbar links */
     font-size: 18px;
     padding: 10px 15px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar a:hover {
-    background-color: #0056b3;
-    border-radius: 5px;
+    background-color: #3366cc; /* Slightly lighter blue for hover */
+    color: #fff;  /* Keep text white when hovered */
 }
 
 main {
@@ -60,8 +60,8 @@ main {
 
 section {
     margin: 30px auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;  /* Increased padding for spacing */
+    background-color: rgba(0, 0, 0, 0.85);  /* Slightly darker for better contrast */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 900px;
@@ -69,7 +69,8 @@ section {
     animation: fadeIn 2s ease-in-out;
 }
 
-h2 {
+/* Specific styling for each section */
+#introduction h2, #achievements h2, #projects h2, #contact h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
     color: #3366cc;
@@ -86,6 +87,7 @@ ul {
 ul li {
     font-size: 18px;
     margin: 10px 0;
+    color: #ddd; /* Light grey text for better contrast */
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -123,29 +125,6 @@ footer p {
     font-size: 16px;
 }
 
-/* Transitions for hover effects */
-.navbar a, footer p {
-    transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-    color: #3366cc;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-main, section {
-    animation: fadeIn 1s ease-in-out;
-}
-
 /* Update Google Colab link to yellow */
 a {
     color: #ffcc00;  /* Yellow color for Google Colab link */
@@ -174,4 +153,38 @@ footer .contact-details a {
 
 footer .contact-details a:hover {
     color: #ffffff; /* White color on hover */
+}
+
+/* Specific Section Styling for Achievements and Contact */
+#achievements, #contact {
+    padding: 40px; /* Increased padding to create more space */
+    background-color: rgba(0, 0, 0, 0.85); /* Slightly darker to contrast with the blue header */
+}
+
+#achievements p, #contact p, #achievements li, #contact li {
+    color: #ddd; /* Light grey text for better contrast */
+}
+
+#achievements ul, #contact ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#achievements li, #contact li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+main, section {
+    animation: fadeIn 1s ease-in-out;
 }
