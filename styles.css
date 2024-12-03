@@ -9,8 +9,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #003366, #3366cc);
     color: #fff;
-    padding: 0;
-    margin: 0;
+    padding: 20;
+    margin: 20;
 }
 
 header {
